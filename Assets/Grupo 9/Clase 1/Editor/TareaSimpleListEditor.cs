@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(SimpleListTester))]
-public class SimpleListTesterEditor : Editor
+[CustomEditor(typeof(TareaSimpleList))]
+public class TareaSimpleListEditor : Editor
 {
     public static string input = "Input";
 
@@ -13,7 +13,7 @@ public class SimpleListTesterEditor : Editor
     {
         base.OnInspectorGUI();
 
-        SimpleListTester tester = target as SimpleListTester;
+        TareaSimpleList tester = target as TareaSimpleList;
 
         // ---
 
